@@ -13,7 +13,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/Alamofire/Alamofire.git", .upToNextMajor(from: "5.9.1")),
-        .package(url: "https://github.com/BBC6BAE9/Request.git", from: "0.0.1"),
+        .package(url: "https://github.com/BBC6BAE9/Request.git", from: "0.0.3"),
         .package(url: "https://github.com/yahoojapan/SwiftyXMLParser.git", .upToNextMajor(from: "5.6.0")),
     ],
     targets: [
